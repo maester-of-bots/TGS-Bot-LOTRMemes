@@ -1,0 +1,1 @@
+Rough clone of FreeFolkSimulator bot.  Will clean up later.  Don't judge me.  
