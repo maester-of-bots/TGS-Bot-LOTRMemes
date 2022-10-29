@@ -6,7 +6,7 @@ import requests
 
 from sql import *
 import praw
-from bot_brains import *
+from clones import *
 
 def submissions_and_comments(subreddit, **kwargs):
     results = []

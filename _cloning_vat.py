@@ -15,10 +15,9 @@ reference = 'https://www.reddit.com/r/freefolk/comments/byko9d/is_there_a_full_l
 
 to_clone = {}
 username_list = [
-    'RealPoIk'
+    ''
 ]
 
-id = 'hng7dbh'
 
 
 for bot in username_list:
