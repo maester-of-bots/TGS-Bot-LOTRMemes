@@ -69,7 +69,7 @@ class BOTMOB:
                 upcount = False
                 # Iterate through all the bots.  This allows us to easily add in bots without changing the main code.
                 for bot in self.bots:
-                    if bot == str(obj.author):
+                    if bot == str(obj.author.name):
                         pass
                     elif bot in self.muted.keys():
                         if datetime.now() >= (self.muted[bot] + timedelta(minutes=10)):
